@@ -194,6 +194,7 @@ void makeEssence(std::string fn, std::string mn, std::string ln, int yr, int las
         else {
             liter++;
         }
+
         std::cout << yr++ << " age from " << iYR << " to " << iYR + 1 << " TRANSIT letters : " << transit
                   << " TRANSIT values " << letterNum[transit[0]] << letterNum[transit[1]] << letterNum[transit[2]]
                   << "  essence value " << getSum(trVal) << "  \n";
